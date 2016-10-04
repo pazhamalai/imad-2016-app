@@ -1,6 +1,6 @@
 console.log('Loaded!');
-var element= document.getElementById('logo');
-element.onclick = function()
+var img= document.getElementById('logo');
+img.onclick = function()
 {
-    element.style.marginLeft='100px';
+    img.style.marginLeft='100px';
 };
