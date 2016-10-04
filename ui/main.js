@@ -1,12 +1,12 @@
 console.log('Loaded!');
-var element= document.getElementById('logo');
+var img= document.getElementById('logo');
 var marginLeft=0;
 function moveRight()
 {
   marginLeft=marginLeft + 5;
-  element.style.marginLeft=marginleft + 'px';
+  img.style.marginLeft=marginleft + 'px';
 }
-element.onclick = function ()
+img.onclick = function ()
 {
-    var interval= setInterval(moveRight,100);
+    var interval= setInterval(moveRight , 100);
 };
