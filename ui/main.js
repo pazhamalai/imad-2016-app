@@ -4,7 +4,7 @@ var marginLeft=0;
 function moveRight()
 {
   marginLeft=marginLeft + 5;
-  img.style.marginLeft=marginleft + 'px';
+  img.style.marginLeft=marginLeft + 'px';
 }
 img.onclick = function ()
 {
