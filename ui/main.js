@@ -21,6 +21,6 @@ button.onclick = function()
   
 };
 
-request.open('GET','http://pazhamalai@ssh.imad.hasura-app.io/counter',true);
+request.open('GET','http://pazhamalai.imad.hasura-app.io/counter',true);
 request.send(null);
 
