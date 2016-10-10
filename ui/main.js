@@ -15,3 +15,5 @@ element.onclick=function()
 {
   var inter=setInterval(moveRight,100);  
 };
+
+
