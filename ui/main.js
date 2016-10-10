@@ -3,7 +3,7 @@
 var button=document.getElementById('counter');
 button.onclick = function()
 {
-    var request = new XMLHttpRequest();
+    var request = new XMLHttprequest();
     
     request.onreadystatechange = function()
     {
@@ -21,6 +21,6 @@ button.onclick = function()
   
 };
 
-httpRequest.open('GET','http://pazhamalai.imad.hasura-app.io/counter',true);
-httpRequest.send(null);
+request.open('GET','http://pazhamalai.imad.hasura-app.io/counter',true);
+request.send(null);
 
