@@ -5,7 +5,7 @@ button.onclick = function()
 {
     var request = new XMLHttpRequest();
     
-    Request.onreadystatechange = function()
+    request.onreadystatechange = function()
     {
         if(request.readystate===XMLHttpRequest.DONE)
         {
@@ -19,8 +19,9 @@ button.onclick = function()
     };
   
   
-};
+
 
 request.open('GET','http://pazhamalai.imad.hasura-app.io/counter',true);
 request.send(null);
 
+};
