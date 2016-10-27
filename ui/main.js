@@ -26,8 +26,7 @@ request.send(null);
 
 };
 
-var nameinput=document.getElementById('name');
-var name=nameinput.value;
+
 var submit=document.getElementById('submitbtn');
 submit.onclick=function()
 {var request = new XMLHttpRequest();
@@ -51,7 +50,8 @@ submit.onclick=function()
     };
   
   
-
+var nameinput=document.getElementById('name');
+var name=nameinput.value;
 
 request.open('GET','http://pazhamalai.imad.hasura-app.io/submit-name/?name='+name,true);
 request.send(null);
