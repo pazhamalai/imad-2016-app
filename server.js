@@ -54,7 +54,7 @@ var articles={
 </div>`
    },
    'articlethree':{
-       title:'Article Three'
+       title:'Article Three',
        content:` <div>
 <a href='/'>Home</a><br/>
 <a href='/profile.html'>profile</a><br/>
