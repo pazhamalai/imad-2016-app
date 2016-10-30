@@ -89,9 +89,8 @@ var htmltemplate=`<!DOCTYPE html>
 return htmltemplate;
 }
 
-app.get('/:articlename',function(req,res)
-{
-     articlename=req.params.articlename;
+app.get('/:articlename',function(req,res){
+    var articlename=req.params.articlename;
      res.send(createtemplate(articles[articlename]));
 });
 
