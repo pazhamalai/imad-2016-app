@@ -28,6 +28,15 @@ app.get('/articlethree.html',function(req,res)
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+app.get('/ui/one.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'one.png'));
+});
+app.get('/ui/two.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'two.jpeg'));
+});
+app.get('/ui/three.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'three.jpeg'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
