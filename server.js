@@ -41,7 +41,7 @@ var htmltemplate=`<!DOCTYPE html>
 <html>
 <head>
     <link href='/ui/style.css' rel='stylesheet'/>
-    ${title}
+    <title>${title}</title>
 </head>
 <body>
     ${content}
