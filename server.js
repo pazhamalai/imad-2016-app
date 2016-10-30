@@ -22,8 +22,8 @@ var articles={
 <div>
        <a href='/'>Home</a><br/>
        <a href='/profile.html'>profile</a><br/>
-       <a href='/articletwo.html'>Article two</a><br/>
-       <a href='/articlethree.html'>Article three</a>
+       <a href='/articletwo'>Article two</a><br/>
+       <a href='/articlethree'>Article three</a>
 </div>
 <div>
        <p>October 30</p>
@@ -40,8 +40,8 @@ var articles={
        content:`     <div>
 <a href='/'>Home</a><br/>
 <a href='/profile.html'>profile</a><br/>
-<a href='/articleone.html'>Article one</a><br/>
-<a href='/articlethree.html'>Article three</a>
+<a href='/articleone'>Article one</a><br/>
+<a href='/articlethree'>Article three</a>
 </div>
 <div>
 <p>October 30</p>
@@ -58,8 +58,8 @@ var articles={
        content:` <div>
 <a href='/'>Home</a><br/>
 <a href='/profile.html'>profile</a><br/>
-<a href='/articleone.html'>Article one</a><br/>
-<a href='/articletwo.html'>Article two</a><br/>
+<a href='/articleone'>Article one</a><br/>
+<a href='/articletwo'>Article two</a><br/>
 </div>
 <div>
 <p>October 30</p>
