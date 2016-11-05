@@ -86,9 +86,9 @@ var articles={
        <a href='/articlethree' class='buttonthree'>Article three</a>
 </div>
 <div>
-<button onclick="document.getElementById('image').src='/ui/bulboff.jpeg'">Turn off the light</button>
-<img id='image' src='/ui/bulboff.jpeg' style="width:100px">
 <button onclick="document.getElementById('image').src='/ui/bulbon.jpeg'">Turn on the light</button>
+<img id='image' src='/ui/bulboff.jpeg' style="width:100px">
+<button onclick="document.getElementById('image').src='/ui/bulboff.jpeg'">Turn off the light</button>
 
 </div>
 <div>
