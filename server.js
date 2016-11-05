@@ -69,12 +69,12 @@ app.get('/submit-name', function (req, res) {
 var articles={
    'articleone':{
     title:'Article One',
-    content:`
+    content:` <link rel='stylesheet' type=text/css href='ui/style.css'>
 <div>
-       <a href='/'>Home</a><br/>
-       <a href='/profile.html'>profile</a><br/>
-       <a href='/articletwo'>Article two</a><br/>
-       <a href='/articlethree'>Article three</a>
+       <a href='/' class='button'>Home</a><br/>
+       <a href='/profile.html' class='button'>profile</a><br/>
+       <a href='/articletwo' class='button'>Article two</a><br/>
+       <a href='/articlethree' class='button'>Article three</a>
 </div>
 <div>
        <p>October 30</p>
