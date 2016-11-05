@@ -80,9 +80,9 @@ var articles={
     content:` <link rel='stylesheet' type=text/css href='ui/style.css'>
     <div class="one">
 <div>
-       <a href='/' class='button'>Home</a><br/>
-       <a href='/profile.html' class='buttonone'>profile</a><br/>
-       <a href='/articletwo' class='buttontwo'>Article two</a><br/>
+       <a href='/' class='button'>Home</a>
+       <a href='/profile.html' class='buttonone'>profile</a>
+       <a href='/articletwo' class='buttontwo'>Article two</a>
        <a href='/articlethree' class='buttonthree'>Article three</a>
 </div>
 <div>
@@ -107,9 +107,9 @@ var articles={
    'articletwo':{
        title:'Article Two',
        content:`     <div>
-<a href='/' class='button'>Home</a><br/>
-<a href='/profile.html' class='buttonone'>profile</a><br/>
-<a href='/articleone' class='buttontwo'>Article one</a><br/>
+<a href='/' class='button'>Home</a>
+<a href='/profile.html' class='buttonone'>profile</a>
+<a href='/articleone' class='buttontwo'>Article one</a>
 <a href='/articlethree' class='buttonthree'>Article three</a>
 </div>
 <div>
@@ -125,10 +125,10 @@ var articles={
    'articlethree':{
        title:'Article Three',
        content:` <div>
-<a href='/' class='button'>Home</a><br/>
-<a href='/profile.html' class='buttonone'>profile</a><br/>
-<a href='/articleone' class='buttontwo'>Article one</a><br/>
-<a href='/articletwo' class='buttonthree'>Article two</a><br/>
+<a href='/' class='button'>Home</a>
+<a href='/profile.html' class='buttonone'>profile</a>
+<a href='/articleone' class='buttontwo'>Article one</a>
+<a href='/articletwo' class='buttonthree'>Article two</a>
 </div>
 <div>
 <p>October 30</p>
