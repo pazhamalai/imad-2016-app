@@ -81,9 +81,9 @@ var articles={
     <div class="one">
 <div>
        <a href='/' class='button'>Home</a>
-       <a href='/profile.html' class='button'>profile</a>
-       <a href='/articletwo' class='button'>Article two</a>
-       <a href='/articlethree' class='button'>Article three</a><br>
+       <a href='/profile.html' class='buttonone'>profile</a>
+       <a href='/articletwo' class='buttonone'>Article two</a>
+       <a href='/articlethree' class='buttonone'>Article three</a><br>
 </div>
 <div class='bulb'>
 <button onclick="document.getElementById('image').src='/ui/bulbon.jpeg'">Turn on the light</button>
@@ -108,9 +108,9 @@ var articles={
        title:'Article Two',
        content:`     <div>
 <a href='/' class='button'>Home</a>
-<a href='/profile.html' class='button'>profile</a>
-<a href='/articleone' class='button'>Article one</a>
-<a href='/articlethree' class='button'>Article three</a>
+<a href='/profile.html' class='buttonone'>profile</a>
+<a href='/articleone' class='buttonone'>Article one</a>
+<a href='/articlethree' class='buttonone'>Article three</a>
 </div>
 <div>
 <p>October 30</p>
@@ -126,9 +126,9 @@ var articles={
        title:'Article Three',
        content:` <div>
 <a href='/' class='button'>Home</a>
-<a href='/profile.html' class='button'>profile</a>
-<a href='/articleone' class='button'>Article one</a>
-<a href='/articletwo' class='button'>Article two</a>
+<a href='/profile.html' class='buttonone'>profile</a>
+<a href='/articleone' class='buttonone'>Article one</a>
+<a href='/articletwo' class='buttonone'>Article two</a>
 </div>
 <div>
 <p>October 30</p>
