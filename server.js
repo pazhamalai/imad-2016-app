@@ -79,7 +79,7 @@ var articles={
     title:'Article One',
     content:` <link rel='stylesheet' type=text/css href='ui/style.css'>
     <div class="one">
-<div>
+<div class='bulb'>
        <a href='/' class='button'>Home</a>
        <a href='/profile.html' class='buttonone'>profile</a>
        <a href='/articletwo' class='buttontwo'>Article two</a>
