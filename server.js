@@ -83,7 +83,7 @@ var articles={
        <a href='/' class='button'>Home</a>
        <a href='/profile.html' class='buttonone'>profile</a>
        <a href='/articletwo' class='buttontwo'>Article two</a>
-       <a href='/articlethree' class='buttonthree'>Article three</a>
+       <a href='/articlethree' class='buttonthree'>Article three</a><br>
 </div>
 <div>
 <button onclick="document.getElementById('image').src='/ui/bulbon.jpeg'">Turn on the light</button>
