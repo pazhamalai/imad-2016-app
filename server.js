@@ -52,11 +52,11 @@ app.get('/ui/DSC05945.jpg', function (req, res) {
 });
 
 app.get('/ui/bulb on.jpeg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'DSC05945.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'bulb on.jpeg'));
 });
 
 app.get('/ui/bulb off.jpeg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'DSC05945.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'bulb off.jpeg'));
 });
 
 
