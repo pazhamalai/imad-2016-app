@@ -107,10 +107,10 @@ var articles={
    'articletwo':{
        title:'Article Two',
        content:`     <div>
-<a href='/'>Home</a><br/>
-<a href='/profile.html'>profile</a><br/>
-<a href='/articleone'>Article one</a><br/>
-<a href='/articlethree'>Article three</a>
+<a href='/' class='button'>Home</a><br/>
+<a href='/profile.html' class='buttonone'>profile</a><br/>
+<a href='/articleone' class='buttontwo'>Article one</a><br/>
+<a href='/articlethree' class='buttonthree'>Article three</a>
 </div>
 <div>
 <p>October 30</p>
@@ -125,10 +125,10 @@ var articles={
    'articlethree':{
        title:'Article Three',
        content:` <div>
-<a href='/'>Home</a><br/>
-<a href='/profile.html'>profile</a><br/>
-<a href='/articleone'>Article one</a><br/>
-<a href='/articletwo'>Article two</a><br/>
+<a href='/' class='button'>Home</a><br/>
+<a href='/profile.html' class='buttonone'>profile</a><br/>
+<a href='/articleone' class='buttontwo'>Article one</a><br/>
+<a href='/articletwo' class='buttonthree'>Article two</a><br/>
 </div>
 <div>
 <p>October 30</p>
