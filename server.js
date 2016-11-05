@@ -79,13 +79,13 @@ var articles={
     title:'Article One',
     content:` <link rel='stylesheet' type=text/css href='ui/style.css'>
     <div class="one">
-<div class='bulb'>
+<div>
        <a href='/' class='button'>Home</a>
        <a href='/profile.html' class='buttonone'>profile</a>
        <a href='/articletwo' class='buttontwo'>Article two</a>
        <a href='/articlethree' class='buttonthree'>Article three</a><br>
 </div>
-<div>
+<div class='bulb'>
 <button onclick="document.getElementById('image').src='/ui/bulbon.jpeg'">Turn on the light</button>
 <img id='image' src='/ui/bulboff.jpeg' style="width:100px">
 <button onclick="document.getElementById('image').src='/ui/bulboff.jpeg'">Turn off the light</button>
