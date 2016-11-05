@@ -51,12 +51,12 @@ app.get('/ui/DSC05945.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'DSC05945.jpg'));
 });
 
-app.get('/ui/bulb on.jpeg', function (req, res) {
+app.get('/ui/bulbon.jpeg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bulb on.jpeg'));
 });
 
-app.get('/ui/bulb off.jpeg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bulb off.jpeg'));
+app.get('/ui/bulboff.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bulboff.jpeg'));
 });
 
 
@@ -85,9 +85,9 @@ var articles={
        <a href='/articlethree' class='button'>Article three</a>
 </div>
 <div>
-<button onclick="document.getElementById('image').src='/ui/bulb off.jpeg'">Turn off the light</button>
-<img id='image' src='/ui/bulb off.jpeg' style="width:100px">
-<button onclick="document.getElementById('image').src='/ui/bulb on.jpeg'">Turn on the light</button>
+<button onclick="document.getElementById('image').src='/ui/bulboff.jpeg'">Turn off the light</button>
+<img id='image' src='/ui/bulboff.jpeg' style="width:100px">
+<button onclick="document.getElementById('image').src='/ui/bulbon.jpeg'">Turn on the light</button>
 
 </div>
 <div>
