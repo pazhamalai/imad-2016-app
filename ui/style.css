@@ -48,8 +48,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left:200px;
-    margin-top:-50px;
+    margin-left:100px;
 }
 
 .buttontwo{
@@ -63,7 +62,7 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left:400px;
+    margin-left:200px;
     
 }
 
@@ -78,6 +77,6 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left:600px;
+    margin-left:300px;
     
 }
