@@ -78,6 +78,7 @@ var articles={
    'articleone':{
     title:'Article One',
     content:` <link rel='stylesheet' type=text/css href='ui/style.css'>
+    <div>
 <div>
        <a href='/' class='button'>Home</a><br/>
        <a href='/profile.html' class='button'>profile</a><br/>
@@ -98,7 +99,10 @@ var articles={
 </div>
 <div>
        <a href='https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fpixabay.com%2Fstatic%2Fuploads%2Fphoto%2F2015%2F04%2F04%2F19%2F13%2Fone-706897_640.jpg&imgrefurl=https%3A%2F%2Fpixabay.com%2Fen%2Fone-1-number-design-collection-706897%2F&docid=Dxk_1n6Yd4M41M&tbnid=H9VLy5g15akogM%3A&w=640&h=640&hl=en&bih=659&biw=1366&ved=0ahUKEwiF5ruwy4LQAhXIK48KHYslB3AQMwg-KAwwDA&iact=mrc&uact=8' target='_blank'><img src='/ui/one.png' alt='article one' class='img-medium'/></a>
-</div>`
+</div>
+</div>
+`
+
 },
    'articletwo':{
        title:'Article Two',
