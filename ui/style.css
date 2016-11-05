@@ -73,8 +73,12 @@ body {
     text-align:center;
     font-size:30px;
 }
-
 .list{
     
     padding-bottom:200px;
+}
+
+.photoone{
+    margin-left:400px;
+    padding-top:30px;
 }
