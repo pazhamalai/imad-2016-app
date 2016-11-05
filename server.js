@@ -86,7 +86,6 @@ var articles={
        <a href='/articlethree' class='buttonone'>Article three</a><br>
 </div>
 
-</div>
 <div>
        <p class='two'>October 30</p>
 </div>
@@ -102,6 +101,7 @@ var articles={
 <img id='image' src='/ui/bulboff.jpeg' style="width:100px">
 <button onclick="document.getElementById('image').src='/ui/bulboff.jpeg'">Turn off the light</button>
 
+</div>
 </div>
 `
 
