@@ -86,7 +86,7 @@ var articles={
 </div>
 <div>
 <button onclick="document.getElementById('image').src='/ui/bulb off.jpeg'">Turn off the light</button>
-<img id='image' src='/ui/bulb off.jpeg'></img>
+<img id='image' src='/ui/bulb off.jpeg' style="width:100px">
 <button onclick="document.getElementById('image').src='/ui/bulb on.jpeg'">Turn on the light</button>
 
 </div>
