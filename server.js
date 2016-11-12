@@ -32,6 +32,7 @@ app.get('/test-db', function (req, res) {
 });
 
 
+
 app.get('/profile.html',function(req,res)
 {
       res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
