@@ -49,6 +49,12 @@ body {
     margin-left:200px;
 }
 
+.one{
+    
+    background-color:white;
+}
+
+
 .bulb{
     margin-left:500px;
     padding-top:50px;
@@ -64,7 +70,10 @@ body {
     margin-left:200px;
     padding-top:30px;
 }
-
+.two{
+    text-align:center;
+    font-size:30px;
+}
 .list{
     
     padding-bottom:200px;
